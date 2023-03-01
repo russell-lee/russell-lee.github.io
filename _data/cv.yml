@@ -95,4 +95,4 @@
 #   type: list
 #   contents:
 #     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
-<embed src="/assets/cv_updated.pdf" type = "application/pdf">
+# <embed src="/assets/cv_updated.pdf" type = "application/pdf">

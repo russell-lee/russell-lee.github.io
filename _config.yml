@@ -71,7 +71,7 @@ github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: russell-lee65
 telegram_username: # your Telegram user name
 scholar_userid: 402_G_IAAAAJ
 semanticscholar_id: # your Semantic Scholar ID
@@ -94,7 +94,7 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: # your instagram id
+instagram_id: wunderbus1
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
@@ -278,6 +278,12 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+  sort_by: date
+  order: descending
+  type_order: [article, inbook, book, unpublished, misc, report, conference, incollections, inproceedings, proceedings]
+  type_names: {unpublished: working papers, report: reports, article: journal articles, 
+        inproceedings: conference articles & others}
 
 badges: # Display different badges for your pulications
   altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)

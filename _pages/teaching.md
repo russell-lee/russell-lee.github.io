@@ -2,11 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+  * Fall 2018 , Teaching Assistant for [CS589 Machine Learning](https://people.cs.umass.edu/~brenocon/cs589_f18/) at UMass Amherst
+  * Fall 2017 and Spring 2018, Teaching Assistant for [CS311 Introduction to Algorithms](https://people.cs.umass.edu/~akshay/courses/cs311/index.html) at UMass Amherst
+  * Fall 2016, Teaching Assistant for 21-120 Differential and Integral Calculus at Carnegie Mellon

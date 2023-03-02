@@ -14,6 +14,6 @@ nav_order: 1
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %} -->
-  {% bibliography -f sdaza --group_by type %}
+  {% bibliography -f papers --group_by type %}
 
 </div>

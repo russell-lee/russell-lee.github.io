@@ -1,6 +1,25 @@
 ---
 ---
 
+@inproceedings{10.1145/3632775.3639590,
+author = {Lee, Russell and Sun, Bo and Hajiesmaili, Mohammad and Lui, John C. S.},
+title = {Online Search with Predictions: Pareto-optimal Algorithm and its Applications in Energy Markets},
+year = {2024},
+isbn = {9798400704802},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3632775.3639590},
+doi = {10.1145/3632775.3639590},
+abstract = {This paper develops learning-augmented algorithms for energy trading in volatile electricity markets. The basic problem is to sell (or buy) k units of energy for the highest revenue (lowest cost) over uncertain time-varying prices, which can framed as a classic online search problem in the literature of competitive analysis. State-of-the-art algorithms assume no knowledge about future market prices when they make trading decisions in each time slot, and aim for guaranteeing the performance for the worst-case price sequence. In practice, however, predictions about future prices become commonly available by leveraging machine learning. This paper aims to incorporate machine-learned predictions to design competitive algorithms for online search problems. An important property of our algorithms is that they achieve performances competitive with the offline algorithm in hindsight when the predictions are accurate (i.e., consistency) and also provide worst-case guarantees when the predictions are arbitrarily wrong (i.e., robustness). The proposed algorithms achieve the Pareto-optimal trade-off between consistency and robustness, where no other algorithms for online search can improve on the consistency for a given robustness. Further, we extend the basic online search problem to a more general inventory management setting that can capture storage-assisted energy trading in electricity markets. In empirical evaluations using traces from real-world applications, our learning-augmented algorithms improve the average empirical performance compared to benchmark algorithms, while also providing improved worst-case performance.},
+booktitle = {Proceedings of the 15th ACM International Conference on Future and Sustainable Energy Systems},
+pages = {386–407},
+numpages = {22},
+keywords = {Learning-augmented algorithms, Pareto-optimality, energy storage, online algorithms},
+location = {Singapore, Singapore},
+series = {e-Energy '24}
+}
+
+
 @article{10.1145/3508467.3508473,
 author = {Lee, Russell and Maghakian, Jessica and Hajiesmaili, Mohammad and Li, Jian and Sitaraman, Ramesh and Liu, Zhenhua},
 title = {Online Peak-Aware Energy Scheduling with Untrusted Advice},
